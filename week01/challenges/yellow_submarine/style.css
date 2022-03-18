@@ -1,0 +1,61 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(216, 156, 44);
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 40%;
+}
+
+#submarine {
+  width: 100%;
+  height: 100%;
+}
+
+.singer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.singername {
+  font-size: 20px;
+}
+
+.singericon {
+  width: 230px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+#singers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}

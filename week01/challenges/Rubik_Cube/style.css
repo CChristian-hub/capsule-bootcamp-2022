@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.big-square {
+  width: 400px;
+  height: 400px;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.rouge {
+  background-color: red;
+}
+
+.bleu {
+  background-color: blue;
+}
+
+.vert {
+  background-color: green;
+}
