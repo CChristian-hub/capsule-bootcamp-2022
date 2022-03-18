@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <p>Welcome to <%= title %>
+    </p>
+    <form action="/search" method="POST">
+        <input type="text" name="artist" placeholder="please enter an artist name">
+        <button type="submit">Search</button>
+    </form>
+
+    <ul>
+        <% for( let i=0; i < result.artists.length; i++ ) { %>
+            <br>
+
+
+            <li>
+                <a href="/discographie?artist=<%= result.artists[i].name %>">
+                    <%= result.artists[i].name %>
+                </a>
+            </li>
+            <% if (result.artists[i].country !=undefined) { %>
+                <li>
+                    <%= result.artists[i].country %>
+                </li>
+                <% } else { %>
+                    <li>
+                        Pays non renseigné
+                    </li>
+
+                    <% } %>
+
+
+                        <li>
+                            <%= result.artists[i].disambiguation %>
+                        </li>
+                        <% } %>
+    </ul>
+</body>
+
+</html>
