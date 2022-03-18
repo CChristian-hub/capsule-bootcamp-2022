@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div class="container-fluid header">
+    <div class="row">
+
+      <h3 class="col-12">
+        <%= title %>
+      </h3>
+
+    </div>
+  </div>
+
+  <% for( let i=0; i < users.length; i++ ) { %>
+    <div class="row userContainer">
+      <div class="userLevel">
+        <div class="userInfo">
+          <% if (users[i].gender==="male" ) { %>
+            <img class="gender-icon" src="/images/male.svg" alt="">
+            <% } %>
+              <% if (users[i].gender==="female" ) { %>
+                <img class="gender-icon" src="/images/female.svg" alt="">
+                <% } %>
+                  <div>
+                    <p class="name">
+                      <%=users[i].name %>
+                    </p>
+                    <div>
+                      <% users[i].skills.forEach(element=> { %>
+                        <span class="skill-icon">
+                          <%=element %>
+                        </span>
+                        <% }) %>
+                    </div>
+                  </div>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: <%=users[i].skill %>%" aria-valuenow=" 25"
+          aria-valuemin="0" aria-valuemax="100">
+          <%= users[i].skill %> %
+        </div>
+      </div>
+    </div>
+    <% } %>
+</body>
+
+</html>

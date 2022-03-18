@@ -1,0 +1,29 @@
+body {
+  background-color: #ecf0f1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-top: 3px;
+}
+
+#employees {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img-top {
+  padding: 14px;
+}
+
+.employeeName {
+  font-size: 24px;
+}

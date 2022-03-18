@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wild Trips</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <header>
+    <h3>Wild Trips</h3>
+    <nav class="nav header-text">
+      <a class="nav-link  home" href="/">Home</a>
+      <a class="nav-link trips" href="/trips">Trips</a>
+      <a class="nav-link new active" href="/new">New</a>
+    </nav>
+  </header>
+
+
+  <form class="col-12 new-inputs" action=/trips method="POST">
+    <input class="countryName" type="text" name="country" placeholder="Enter a country">
+    <input class="description" type="text" name="description" placeholder="Please enter a description">
+
+    <input class="url" type="text" name="url" placeholder="Please enter a valid url for your picture !">
+    <input type="submit" name="valider" value="OK">
+  </form>
+
+
+
+</body>
+
+</html>

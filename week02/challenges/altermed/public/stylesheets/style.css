@@ -1,0 +1,72 @@
+/* background-image: url("https://images.unsplash.com/photo-1507431489734-ef0dbfbf88e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"); */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+#navBarTitle {
+  padding-left: 20px;
+}
+
+.background-black {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  background-image: url("https://images.unsplash.com/photo-1507431489734-ef0dbfbf88e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+#allcards {
+  margin: 40px;
+}
+
+.medcard {
+  margin-bottom: 40px;
+}
+
+.medcardimg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.medcardbody {
+  min-height: 180px;
+}
+
+.medcardtitle {
+  color: #128396;
+  font-weight: 300;
+}

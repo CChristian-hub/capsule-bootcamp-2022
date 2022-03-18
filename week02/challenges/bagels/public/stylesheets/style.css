@@ -1,0 +1,63 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background-color: rgb(92, 92, 92);
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: #00b7ff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background-color: lightgrey;
+}
+
+.title {
+  padding-top: 10px;
+  padding-right: 500px;
+  font-size: 30px;
+}
+
+.nav {
+  font-size: 25px;
+}
+
+h1 {
+  padding-top: 350px;
+  color: white;
+  font-size: 50px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.card {
+  background-color: purple;
+  padding: 0px;
+  margin: 40px;
+  border: 0px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}

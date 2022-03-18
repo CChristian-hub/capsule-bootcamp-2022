@@ -1,6 +1,6 @@
 Capsule Bootcamp first week's project:
 
-The goal of the project is to discover HTML CSS DOM with JQUERY
+The goal of the project is to discover HTML CSS DOM with JQUERY and make a small mailbox
 
 In this project you will have by default 5 messages displayed by 5 different users
     -There is a message count, counting the number of messages present

@@ -1,0 +1,83 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    hsl(256, 83%, 45%),
+    #1cb5e0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    hsl(256, 83%, 45%),
+    #1cb5e0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* border: black 3px solid; */
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.header {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: white;
+  background: rgb(36, 36, 36);
+  height: 70px;
+  text-align: center;
+  padding: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.gender-icon {
+  width: 40px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.skill-icon {
+  font-size: 14px;
+  padding: 6px;
+  color: white;
+  border: 1px black solid;
+  background-color: rgb(36, 36, 36);
+  border-radius: 40%;
+  margin: 2px;
+}
+
+.row {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.userContainer {
+  padding-left: 400px;
+  padding-top: 40px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.progress {
+  width: 1000px;
+}
