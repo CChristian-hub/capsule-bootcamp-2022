@@ -5,6 +5,7 @@ We've been viewing new notions everyweek as follow:
 
 ##### `Week 01`
 Week01! Our starting line! Mostly frontend development!
+
     -HTML
     -CSS
     -DOM
@@ -13,6 +14,7 @@ Week01! Our starting line! Mostly frontend development!
 
 ##### `Week 02`
 Week02! Discovering bootstrap and the world of the backend!
+
     -Bootstrap
     -Express
     -EJS templating
@@ -23,6 +25,7 @@ Week02! Discovering bootstrap and the world of the backend!
 
 ##### `Week 03`
 Week03! Using mongoDB database! Using our veryfirst API
+
     -webservices
     -mongoDB
     -redirections
@@ -32,6 +35,7 @@ Week03! Using mongoDB database! Using our veryfirst API
 
 ##### `Week 04`
 Week04! Working with the database! And the bootcamp's [hackathon](https://github.com/CChristian-hub/ticketac)
+
     -database foreign key
     -database under document
     -database aggregate
@@ -41,6 +45,7 @@ Week04! Working with the database! And the bootcamp's [hackathon](https://github
 
 ##### `Week 05`
 Week05! Discovering Reactjs its way to rerender and so on!
+
     -Reactjs
     -JSX component
     -States (useState)
