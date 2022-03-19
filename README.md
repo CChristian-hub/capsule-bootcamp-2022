@@ -1,9 +1,9 @@
-# `Capsule bootcamp 2022`
+## `Capsule bootcamp 2022`
 
 You will find here the work of the eight first weeks of the bootcamp !
 We've been viewing new notions everyweek as follow:
 
-# `Week 01`
+### `Week 01`
 Week01! Our starting line! Mostly frontend development!
     -HTML
     -CSS
@@ -11,7 +11,7 @@ Week01! Our starting line! Mostly frontend development!
     -JQUERY
     -EVENTS
 
-# `Week 02`
+### `Week 02`
 Week02! Discovering bootstrap and the world of the backend!
     -Bootstrap
     -Express
@@ -21,7 +21,7 @@ Week02! Discovering bootstrap and the world of the backend!
     -Stripe
     -Heroku
 
-# `Week 03`
+### `Week 03`
 Week03! Using mongoDB database! Using our veryfirst API
     -webservices
     -mongoDB
@@ -30,7 +30,7 @@ Week03! Using mongoDB database! Using our veryfirst API
     -custom attributes in HTML
     -interactive map (API leaflet)
 
-# `Week 04`
+### `Week 04`
 Week04! Working with the database! And the bootcamp's [hackathon](https://github.com/CChristian-hub/ticketac)
     -database foreign key
     -database under document
@@ -39,7 +39,7 @@ Week04! Working with the database! And the bootcamp's [hackathon](https://github
     -dates
     -chartjs library
 
-# `Week 05`
+### `Week 05`
 Week05! Discovering Reactjs its way to rerender and so on!
     -Reactjs
     -JSX component
@@ -51,9 +51,9 @@ Week05! Discovering Reactjs its way to rerender and so on!
     -HTTP requests (GET/POST/PUT/DELETE)
 
 
-# `Week 06`
+### `Week 06`
     Still typing it please wait a few hours...
-# `Week 07`
+### `Week 07`
     Still typing it please wait a few hours...
-# `Week 08`
+### `Week 08`
     Still typing it please wait a few hours...
