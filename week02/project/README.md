@@ -1,4 +1,4 @@
-Capsule Bootcamp second week's project:
+### `Capsule Bootcamp second week's project`
 
 The goal of the project is to discover make a e-shop website
 

@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-In both /backend and frontend directory to install all required dependencies
+In both /backend and /frontend directory to install all required dependencies
 
 ### `npm start`
 

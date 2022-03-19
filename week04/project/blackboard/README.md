@@ -1,4 +1,4 @@
-Capsule Bootcamp fourth week's project:
+### `Capsule Bootcamp fourth week's project`
 
 The goal of the project is to make a blackboard, tracking messages, articles, orders, dates formatting, and using the chartjs library to display various charts !
 

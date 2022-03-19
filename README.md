@@ -55,10 +55,29 @@ Discovering Reactjs its way to rerender and so on!
     -Life cycle (useEffect)
     -HTTP requests (GET/POST/PUT/DELETE)
 
-
 ##### `Week 06`
-    Still typing it please wait a few hours...
+Navigating with ReactRouterDOM and learning how to use Redux!
+
+    -React router dom
+    -Text input in react
+    -Redux
+    -Security (password hashing with bcrypt)
+
 ##### `Week 07`
-    Still typing it please wait a few hours...
+Dicovering React Native! Creating our very first mobile app using Expo!
+
+    -React native & Expo
+    -React navigation
+    -Websockets and chatbox
+    -Regex
+    -Map and geolocation
+
 ##### `Week 08`
-    Still typing it please wait a few hours...
+Playing around with various tools, little bit of a chill week and preparing towards end of batch project!
+
+    -Camera
+    -Unmount
+    -References
+    -Transfering files
+    -Cloudinary
+    -Facial recognition

@@ -1,4 +1,4 @@
-Capsule Bootcamp first week's project:
+## `Capsule Bootcamp first week's project`
 
 The goal of the project is to discover HTML CSS DOM with JQUERY and make a small mailbox
 

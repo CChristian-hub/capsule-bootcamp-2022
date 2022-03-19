@@ -1,4 +1,4 @@
-Capsule Bootcamp third week's project:
+### `Capsule Bootcamp third week's project`
 
 The goal of the project is to discover the openweathermap api and make weather tracking website, 
 
