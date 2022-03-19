@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>BlackBoard</title>
+
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+
+    <a class="navbar-brand mr-1" href="/">Black Board</a>
+
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navbar -->
+    <%- include('header') %>
+
+  </nav>
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <%- include('sidebar') %>
+
+
+      <div id="content-wrapper">
+
+        <div class="container-fluid">
+
+          <div class="list-group">
+            <% for( let i=0; i < user.tasks.length; i++ ) { %>
+              <% var date=new Date() %>
+                <% if (user.tasks[i].dateCloture) { %>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">
+                        <%= user.tasks[i].category %>
+                      </h5>
+                      <small>Date de la demande: <%= dateFormat(user.tasks[i].dateInsert) %> </small>
+                    </div>
+                    <p class="mb-1">
+                      <%= user.tasks[i].name %>
+                    </p>
+                    <small><i class="fas fa-check-square"></i> Cloturée le: <%= dateFormat(user.tasks[i].dateCloture) %>
+                    </small>
+                  </a>
+                  <% } else if(user.tasks[i].dateCloture===null && date> user.tasks[i].dateDue) { %>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">
+                          <%= user.tasks[i].category %>
+                        </h5>
+                        <small>Date de la demande: <%= dateFormat(user.tasks[i].dateInsert) %> </small>
+                      </div>
+                      <p class="mb-1">
+                        <%= user.tasks[i].name %>
+                      </p>
+                      <small><i class="fas fa-exclamation-circle"></i> Echéance dépassée : <%=
+                          dateFormat(user.tasks[i].dateDue) %>
+                      </small>
+                    </a>
+                    <% } else { %>
+                      <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">
+                            <%= user.tasks[i].category %>
+                          </h5>
+                          <small>Date de la demande: <%= dateFormat(user.tasks[i].dateInsert) %> </small>
+                        </div>
+                        <p class="mb-1">
+                          <%= user.tasks[i].name %>
+                        </p>
+                        <small>Echéance: <%= dateFormat(user.tasks[i].dateDue) %> </small>
+                      </a>
+                      <% } %>
+                        <% } %>
+          </div>
+
+
+        </div>
+        <!-- /.container-fluid -->
+
+        <!-- Sticky Footer -->
+        <footer class="sticky-footer">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright © Blackboard</span>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+      <!-- /.content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Page level plugin JavaScript-->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin.min.js"></script>
+
+</body>
+
+</html>
