@@ -4,7 +4,7 @@ You will find here the work of the eight first weeks of the bootcamp !
 We've been viewing new notions everyweek as follow:
 
 ##### `Week 01`
-Week01! Our starting line! Mostly frontend development!
+Our starting line! Mostly frontend development!
 
     -HTML
     -CSS
@@ -13,7 +13,7 @@ Week01! Our starting line! Mostly frontend development!
     -EVENTS
 
 ##### `Week 02`
-Week02! Discovering bootstrap and the world of the backend!
+Discovering bootstrap and the world of the backend!
 
     -Bootstrap
     -Express
@@ -24,7 +24,7 @@ Week02! Discovering bootstrap and the world of the backend!
     -Heroku
 
 ##### `Week 03`
-Week03! Using mongoDB database! Using our veryfirst API
+Using mongoDB database! Using our veryfirst API!
 
     -webservices
     -mongoDB
@@ -34,7 +34,7 @@ Week03! Using mongoDB database! Using our veryfirst API
     -interactive map (API leaflet)
 
 ##### `Week 04`
-Week04! Working with the database! And the bootcamp's [hackathon](https://github.com/CChristian-hub/ticketac)
+Working with the database! And the bootcamp's [hackathon](https://github.com/CChristian-hub/ticketac)!
 
     -database foreign key
     -database under document
@@ -44,7 +44,7 @@ Week04! Working with the database! And the bootcamp's [hackathon](https://github
     -chartjs library
 
 ##### `Week 05`
-Week05! Discovering Reactjs its way to rerender and so on!
+Discovering Reactjs its way to rerender and so on!
 
     -Reactjs
     -JSX component
