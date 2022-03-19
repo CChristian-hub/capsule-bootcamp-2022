@@ -3,7 +3,7 @@
 You will find here the work of the eight first weeks of the bootcamp !
 We've been viewing new notions everyweek as follow:
 
-### `Week 01`
+#### `Week 01`
 Week01! Our starting line! Mostly frontend development!
     -HTML
     -CSS
@@ -11,7 +11,7 @@ Week01! Our starting line! Mostly frontend development!
     -JQUERY
     -EVENTS
 
-### `Week 02`
+##### `Week 02`
 Week02! Discovering bootstrap and the world of the backend!
     -Bootstrap
     -Express
