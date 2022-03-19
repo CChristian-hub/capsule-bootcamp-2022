@@ -3,7 +3,7 @@
 You will find here the work of the eight first weeks of the bootcamp !
 We've been viewing new notions everyweek as follow:
 
-##### `Week 01`
+### `Week 01`
 Our starting line! Mostly frontend development!
 
     -HTML
@@ -12,7 +12,7 @@ Our starting line! Mostly frontend development!
     -JQUERY
     -EVENTS
 
-##### `Week 02`
+### `Week 02`
 Discovering bootstrap and the world of the backend!
 
     -Bootstrap
@@ -23,7 +23,7 @@ Discovering bootstrap and the world of the backend!
     -Stripe
     -Heroku
 
-##### `Week 03`
+### `Week 03`
 Using mongoDB database! Using our veryfirst API!
 
     -webservices
@@ -43,7 +43,7 @@ Working with the database! And the bootcamp's [hackathon](https://github.com/CCh
     -dates
     -chartjs library
 
-##### `Week 05`
+### `Week 05`
 Discovering Reactjs its way to rerender and so on!
 
     -Reactjs
@@ -55,7 +55,7 @@ Discovering Reactjs its way to rerender and so on!
     -Life cycle (useEffect)
     -HTTP requests (GET/POST/PUT/DELETE)
 
-##### `Week 06`
+### `Week 06`
 Navigating with ReactRouterDOM and learning how to use Redux!
 
     -React router dom
@@ -63,7 +63,7 @@ Navigating with ReactRouterDOM and learning how to use Redux!
     -Redux
     -Security (password hashing with bcrypt)
 
-##### `Week 07`
+### `Week 07`
 Dicovering React Native! Creating our very first mobile app using Expo!
 
     -React native & Expo
@@ -72,7 +72,7 @@ Dicovering React Native! Creating our very first mobile app using Expo!
     -Regex
     -Map and geolocation
 
-##### `Week 08`
+### `Week 08`
 Playing around with various tools, little bit of a chill week and preparing towards end of batch project!
 
     -Camera
