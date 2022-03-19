@@ -13,7 +13,7 @@ mongoose.connect(mongoLink, options,
         if (err) {
             console.log(`error, failed to connect to the database because --> ${err}`);
         } else {
-            console.info('*** Database Ticketac connection : Success ***');
+            console.info('*** Database connection : Success ***');
         }
     }
 );
