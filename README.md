@@ -13,7 +13,6 @@ Week01! Our starting line! Mostly frontend development!
 
 ##### `Week 02`
 Week02! Discovering bootstrap and the world of the backend!
-
     -Bootstrap
     -Express
     -EJS templating
