@@ -1,0 +1,12 @@
+.myContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dice {
+    /* border: 1px black solid; */
+    /* padding: 20px; */
+    margin: 10px;
+    width: 100px;
+}
